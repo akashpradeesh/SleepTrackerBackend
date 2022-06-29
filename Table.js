@@ -23,7 +23,7 @@ router.post(`/datas`,(req,res) =>{
         singleData[username].push(newdata)
         // console.log(singleData)
         data.tableDatabase.push(singleData)
-        console.log(data.tableDatabase)
+        // console.log(data.tableDatabase)
     }else{
         const temp = data.tableDatabase[index]
         temp[username].push(newdata)
