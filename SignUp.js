@@ -10,7 +10,7 @@ router.post(`/detail`,(req,res) =>{
    data.userDatabase.push(newdata)
     res.send(data.userDatabase)
     data.tableDatabase.push(newdat)
-    // console.log(data.userDatabase)
+    console.log(data.userDatabase)
     
 });
 
